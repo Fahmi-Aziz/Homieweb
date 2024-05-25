@@ -1,0 +1,566 @@
+{
+    "intents": [
+        {
+            "tag": "target_pasar",
+            "patterns": [
+                "Siapa saja target pasar kita?",
+                "Apa saja target pasar yang direkomendasikan untuk usaha laundry?",
+                "Bagaimana mencari target pasar yang tepat untuk usaha laundry?"
+            ],
+            "responses": [
+                "Beberapa rekomendasi target pasar dalam membuka usaha laundry diantaranya: Wilayah padat penduduk, wilayah yang banyak perumahan, wilayah yang banyak kos-kosan, apartemen, hotel, rumah sakit, industri/pabrik, rumah tangga, mahasiswa/pekerja, dan pondok pesantren."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "notfound",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                "Maaf saya tidak tahu",
+                "Bisakah anda menyusun kembali kalimatnya",
+                "kata diluar kemampuan kami"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "sapaan",
+            "patterns": [
+                "Halo",
+                "Hai",
+                "Selamat pagi",
+                "Selamat siang",
+                "Selamat sore",
+                "Selamat malam",
+                "Apa kabar?",
+                "Bagaimana hari Anda?",
+                "Tolong bantu saya",
+                "mau tanya",
+                "Hay",
+                "Hy",
+                "Hallo",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Hai",
+                "p",
+                "hai",
+                "halo",
+                "hay",
+                "hai",
+                "mikum",
+                "assamualaikaum",
+                "hi"
+            ],
+            "responses": [
+                "Halo, ada yang bisa saya bantu?",
+                "Hai, ada yang ingin Anda tanyakan?",
+                "Bagaimana saya bisa membantu hari ini?",
+                "Apa yang bisa saya lakukan untuk Anda?",
+                "Ada yang spesifik yang ingin Anda ketahui?",
+                "Apakah Anda membutuhkan bantuan hari ini?",
+                "halo, silahkan bertanya",
+                "Saya hanya program komputer, tetapi siap membantu Anda",
+                "Silahkan Jangan ragu untuk bertanya jika ada yang perlu Anda tanyakan.",
+                "Tentu, saya di sini untuk membantu Anda.",
+                "Apa yang mau Anda ketahui?",
+                "silahkan tanyakan saja",
+                "ada yang bisa saya bantu?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "mindset",
+            "patterns": [
+                "Apa mindset yang harus ditanamkan ketika ingin membuka usaha laundry?",
+                "Bagaimana mindset yang tepat untuk membuka usaha laundry?",
+                "Apa yang harus dipertimbangkan dalam mindset saat membuka usaha laundry?"
+            ],
+            "responses": [
+                "1. Marketnya harus jelas: apapun jenis bisnisnya yang harus dipikirkan yaitu marketnya harus jelas. 2. Punya daya juang: jangan putus asa, karena setiap bisnis yang sudah berusia lama pasti memiliki daya juang yang sangat tinggi, terutama pada tahun-tahun pertamanya 3. Jangan jadikan bisnis laundry sebagai sampingan: jika hanya menjadikan laundry sebagai usaha sampingan saja, maka hasilnya juga pasti sampingan 4. Jangan ragu menggunakan karyawan: untuk mendapatkan untung yang besar dibutuhkan daya produksi yang besar pula, oleh karena itu untuk melengkapi daya produksi yang besar diperlukan juga karyawan yang banyak."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "target_market",
+            "patterns": [
+                "Siapa target market kita?",
+                "Bagaimana menentukan target market untuk usaha laundry?",
+                "Apa yang harus dipertimbangkan dalam menentukan target market laundry?"
+            ],
+            "responses": [
+                "Target market yang ideal yaitu wilayah dengan radius 4/5 km padat penduduk dari lokasi laundry kita."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "riset_pasar",
+            "patterns": [
+                "Bagaimana cara melakukan riset pasar untuk usaha laundry?",
+                "Apa saja cara-cara melakukan riset pasar untuk laundry?",
+                "Bagaimana melakukan analisis pasar untuk usaha laundry?"
+            ],
+            "responses": [
+                "Ada 2 cara untuk melakukan riset pasar, yaitu secara konvensional dan digital marketing, Konvensional: Cari laundry yang sudah berjalan diatas 2 tahun dan berjalan dengan baik. Bisa juga dilakukan dengan menyebar brosur atau banner yang berisi penawaran menarik.Digital marketing: Melalui postingan di Instagram atau memasang iklan di Facebook dan Instagram. Jangan sekali-kali pelit untuk melakukan pemasaran."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "lokasi",
+            "patterns": [
+                "Apa saja factor yang menjadi pertimbangan dalam memilih lokasi usaha?",
+                "Mengapa lokasi penting untuk dipertimbangkan?"
+            ],
+            "responses": [
+                "Faktor-faktor pertimbangan termasuk besaran pendapatan masyarakat, kepadatan penduduk, keamanan, anggaran, keramaian, akses, persaingan, dan ketersediaan air; lokasi penting karena memengaruhi tingkat kesuksesan."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "peralatan",
+            "patterns": [
+                "Apa saja peralatan yang dibutuhkan dalam usaha laundry?",
+                "Peralatan apa saja yang diperlukan untuk membuka usaha laundry?"
+            ],
+            "responses": [
+                "Beberapa peralatan yang dibutuhkan dalam usaha laundry yaitu mesin cuci, mesin pengering, pompa air, filter air, tandon air, timbangan (bisa berupa timbangan manual dan timbangan gantung), setrika, meja setrika, rak pakaian, keranjang pakaian, nota, plastic packing, alat press, tas laundry, hanger, meteran, sprayer parfum, tag gun, spidol marker, spotting gun, dan papan nama."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "chemical",
+            "patterns": [
+                "Apa saja jenis chemical yang biasa digunakan dalam usaha laundry?",
+                "Chemical apa saja yang umum digunakan dalam usaha laundry?"
+            ],
+            "responses": [
+                "Beberapa chemical yang biasa digunakan dalam usaha laundry yaitu detergen, softener, anti bakteri, spoiter noda bandel, parfum, pemutih, emulsifier, alkali, dan PCE."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "detergent",
+            "patterns": [
+                "Apa saja unsur pembentuk detergent?",
+                "Unsur apa saja yang membentuk detergent?",
+                "Bagaimana komposisi unsur dalam pembentukan detergent?"
+            ],
+            "responses": [
+                "Unsur pembentuk detergen diantaranya: Surfactant (mengangkat minyak ke air), Alkali (melunakkan kotoran pada serat pakaian), Builder (meningkatkan efisiensi surfactant dalam penghilangan kotoran), Filler (memperbanyak/memperberat hasil detergent), dan Additives (bahan kimia tambahan untuk mencapai hasil tertentu)."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "kelemahan_usaha",
+            "patterns": [
+                "Apa saja kelemahan dari usaha laundry?",
+                "Apakah ada kekurangan dalam menjalankan usaha laundry?"
+            ],
+            "responses": [
+                "Beberapa kelemahan dari usaha laundry yaitu: persaingan yang ketat, pengelolaan limbah, biaya perawatan yang cukup besar, harus selalu siaga, dan menghadapi komplain pelanggan."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "kelebihan_usaha",
+            "patterns": [
+                "Apa saja kelebihan dari usaha laundry?",
+                "Apakah ada keunggulan dalam menjalankan usaha laundry?"
+            ],
+            "responses": [
+                "Beberapa kelebihan dari usaha laundry yaitu: layanan yang selalu dibutuhkan, tingkat profit yang tinggi, income yang stabil, bisa dikerjakan dirumah, dan modal yang relative tergantung pasar dan market kita."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "resiko_bisnis",
+            "patterns": [
+                "Resiko bisnis laundry?",
+                "Apa saja resiko yang mungkin dihadapi dalam bisnis laundry?"
+            ],
+            "responses": [
+                "Resiko kerugian dari bisnis laundry relatif kecil daripada jenis perdagangan, akan tetapi tingkat keberhasilannya bergantung pada seberapa besar pengetahuan owner dalam mengelola bisnis ini."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "awal_usaha",
+            "patterns": [
+                "Apa saja yang harus dilakukan ketika ingin membuka usaha laundry?",
+                "Apa langkah awal yang perlu diambil dalam memulai usaha laundry?"
+            ],
+            "responses": [
+                "Langkah awal dalam memulai usaha laundry termasuk melakukan riset pasar dan mengakuisisi calon konsumen sebelum memulai operasi. Selain itu, penting untuk memiliki pengetahuan mendalam tentang cara mencuci berbagai jenis pakaian, khususnya untuk bahan-bahan tertentu dan perlakuan khusus yang diperlukan. Merekrut karyawan, terutama bagi yang membuka cabang baru, bisa dilakukan setelah mengetahui dengan pasti berapa omset dan profit yang bisa diraih. Persiapkan tempat, mesin, dan peralatan dengan baik, dan cari chemical khusus untuk penghilang noda atau bahkan pertimbangkan untuk membuatnya sendiri."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "memulai_usaha",
+            "patterns": [
+                "Apa yang harus dilakukan ketika baru memulai usaha laundry?",
+                "Apa langkah berikutnya setelah memulai usaha laundry?"
+            ],
+            "responses": [
+                "Setelah memulai usaha laundry, langkah berikutnya termasuk melakukan survei di laundry serupa untuk membandingkan harga, kualitas, dan pelayanan yang diberikan. Selanjutnya, buat sepanduk, banner, dan makeover tempat usaha laundry serta tetap menjaga kualitas layanan dan ketepatan waktu dalam menyelesaikan pekerjaan. Bangun database dan komunikasi dengan pelanggan agar pelayanan tetap loyal dengan bisnis kita, dan berikan fasilitas gratis antar jemput bagi pelanggan yang masih terjangkau dengan lokasi bisnis kita."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "pemeriksaan_laundry",
+            "patterns": [
+                "Mengapa penting untuk melakukan pemilahan dan pemeriksaan dalam proses kerja laundry?",
+                "Kenapa perlu dilakukan pemilahan dan pemeriksaan dalam laundry?"
+            ],
+            "responses": [
+                "Pemilahan dan pemeriksaan dalam proses kerja laundry penting karena dalam satu orderan biasanya terdapat jenis pakaian yang masuk kategori satuan bukan kiloan, sehingga perlu dilakukan pemeriksaan terhadap kondisi pakaian apakah ada yang luntur atau tidak agar dapat dicuci terpisah."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "sebelum_mencuci",
+            "patterns": [
+                "Hal apa yang perlu dilakukan sebelum tahap pencucian dalam proses kerja laundry?",
+                "Apa yang harus disiapkan sebelum mencuci dalam laundry?"
+            ],
+            "responses": [
+                "Hal yang perlu dilakukan sebelum pencucian adalah memisahkan warna antara pakaian yang berwarna gelap dan cerah agar tidak tercampur."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "bahasa_order",
+            "patterns": [
+                "Apa saja bahasa order dalam laundry kiloan?",
+                "Apa istilah-istilah yang digunakan dalam laundry kiloan?"
+            ],
+            "responses": [
+                "Bahasa order dalam laundry kiloan meliputi: CS (Cuci Setrika), CK (Cuci Kering), CB (Cuci Basah), SS (Setrika Saja), PK (Paket Kilat 1x24 jam), dan PE (Paket Express = 6 jam selesai)."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "tarif_harga",
+            "patterns": [
+                "Bagaimana tarif harga yang diterapkan dalam layanan paket kilat dan paket express?",
+                "Berapa tarif harga untuk paket kilat dan paket express?"
+            ],
+            "responses": [
+                "Tarif harga yang ditawarkan untuk paket kilat bisa mencapai 2 kali lipat dari harga normal, sedangkan tarif harga yang ditawarkan untuk paket express bisa mencapai 3 kali lipat dari harga normal."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "tertukarnya_pakaian",
+            "patterns": [
+                "Apa saja cara yang dapat dilakukan oleh perusahaan laundry dalam menghindari tertukarnya pakaian pelanggan?",
+                "Bagaimana cara perusahaan laundry mengantisipasi tertukarnya pakaian pelanggan?"
+            ],
+            "responses": [
+                "Ada 4 metode yang biasanya dilakukan oleh perusahaan laundry dalam menghindari tertukarnya pakaian pelanggan, yaitu menggunakan metode menjemur berbeda arah, metode satu pelanggan satu mesin cuci, metode mengingat-mengingat, dan metode labelling."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "melabeli_pakaian",
+            "patterns": [
+                "Sebutkan peralatan yang dapat digunakan untuk melabeli pakaian!",
+                "Apa saja alat yang dapat digunakan untuk menandai pakaian?"
+            ],
+            "responses": [
+                "Peralatan yang dapat digunakan untuk melabeli pakaian termasuk pistol label, tag pin (tali label), kain label, dan spidol permanent marker."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "mencegah_penangganan_luntur",
+            "patterns": [
+                "Bagaimana penangganan untuk baju yang berpotensi luntur?",
+                "Apa yang harus dilakukan untuk mencegah pakaian luntur saat dicuci?"
+            ],
+            "responses": [
+                "Baju yang berpotensi luntur sebaiknya dipisahkan dan dicuci secara manual untuk mencegah luntur yang tidak diinginkan."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "pakaian_mungkin_berpotensi_luntur",
+            "patterns": [
+                "Apa saja pakaian yang berpotensi luntur?",
+                "Pakaian apa yang mungkin akan luntur saat dicuci?"
+            ],
+            "responses": [
+                "Pakaian yang berpotensi luntur antara lain baju batik yang teksturnya kasar, sprei anak kos, pakaian bali/kaos bali, serta sarung yang teksturnya kasar."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "warna_mudah_luntur",
+            "patterns": [
+                "Apakah ada warna yang mudah luntur?",
+                "Warna apa yang cenderung luntur saat dicuci?"
+            ],
+            "responses": [
+                "Warna yang mudah luntur dibagi menjadi 2 jenis, yaitu warna cerah (putih, kuning, krem, coklat muda) dan warna gelap (hitam, merah, biru, coklat gelap)."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "pre_washing",
+            "patterns": [
+                "Apa saja tips dalam melakukan pre washing?",
+                "Bagaimana cara yang baik untuk melakukan pre washing?"
+            ],
+            "responses": [
+                "Tips dalam melakukan pre washing adalah membersihkan noda-noda yang terlihat dan tidak dapat dihilangkan hanya dengan mencuci baju di mesin cuci. Bagian yang umumnya lebih kotor seperti kerah atau pergelangan tangan harus mendapat perlakuan khusus, misalnya dengan disikat atau disemprot dengan cairan pengurai lemak/kotoran."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "menggunakan_detergen",
+            "patterns": [
+                "Apa saja tips dalam menggunakan detergen?",
+                "Bagaimana cara yang benar untuk menggunakan detergen?"
+            ],
+            "responses": [
+                "Tips dalam menggunakan detergen termasuk menggunakan deterjen khusus mesin cuci yang berbusa sedikit, mengisi tabung mesin cuci dengan jumlah detergen yang tepat, dan memperhatikan level dan jenis zat aktif dalam deterjen untuk menghindari residu pada pakaian dan lingkungan."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "menata_baju_di_dalam_tabung",
+            "patterns": [
+                "Apa saja urutan peletakan baju di dalam tabung?",
+                "Bagaimana cara menata baju di dalam mesin cuci?"
+            ],
+            "responses": [
+                "Untuk kemeja, diletakkan dengan kerah pada permukaan tabung (berada di pinggir); untuk celana jeans, letakkan bagian pantat pada permukaan tabung (berada di pinggir); sedangkan untuk kaos, daster, kaos dalam, celana dalam, dan baju lain yang tidak terlalu kotor, diletakkan di tengah."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "pakaian_sangat_kotor",
+            "patterns": [
+                "Apakah ada tips untuk mencuci pakaian yang sangat kotor?",
+                "Bagaimana cara mencuci pakaian yang sangat kotor?"
+            ],
+            "responses": [
+                "Untuk pakaian yang sangat kotor, sebaiknya dilakukan perendaman terlebih dahulu dengan menggunakan diublek, bisa dilakukan di mesin cuci 2 tabung atau di bak wadah. Perendaman bisa dikenakan biaya sesuai kebijakan laundry."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "barang_laundry_bijian_satuan",
+            "patterns": [
+                "Barang apa saja yang biasanya termasuk ke dalam laundry bijian/satuan?",
+                "Apa saja barang yang dicuci secara individual di laundry?"
+            ],
+            "responses": [
+                "Barang yang biasanya termasuk ke dalam laundry bijian/satuan antara lain: Bed Cover, Boneka, Gordyn, Sprei, Jas, Jaket Kulit, Pakaian Sutera, Gaun dengan burci, tas, sepatu, bantal silicon, karpet, Sofa, dan Helm."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "pencucian_bed_cover",
+            "patterns": [
+                "Bagaimana teknik pencucian bed cover yang sudah terlanjur sangat dekil dan kotor sampai berwarna kuning bahkan coklat?",
+                "Bagaimana cara membersihkan bed cover yang sangat kotor?"
+            ],
+            "responses": [
+                "Teknik pencucian bed cover yang sudah terlanjur sangat dekil dan kotor dapat dilakukan dengan mencuci secara manual menggunakan deterjen yang kuat, serta memperhatikan petunjuk pencucian pada label produk. Jika terlalu kotor, mungkin perlu menggunakan tambahan bahan pemutih atau melakukan perendaman sebelum mencuci."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "mencuci_boneka",
+            "patterns": [
+                "Bagaimana teknik pencucian boneka?",
+                "Bagaimana cara mencuci boneka?"
+            ],
+            "responses": [
+                "Teknik pencucian boneka saat dilakukan dengan hati-hati, biasanya menggunakan air hangat atau dingin dan deterjen yang lembut. Boneka kemudian direndam dan dicuci dengan lembut, menghindari pergerakan yang kasar atau memutar boneka terlalu keras untuk menghindari kerusakan."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "permintaan_ganti_baju",
+            "patterns": [
+                "Apa yang perlu dilakukan ketika pelanggan meminta ganti baju?",
+                "Bagaimana cara menghadapi permintaan ganti baju dari pelanggan?"
+            ],
+            "responses": [
+                "Ketika pelanggan meminta ganti baju, langkah pertama adalah memeriksa buku daftar tabel order pencatatan untuk memastikan keabsahan permintaan. Selanjutnya, terdapat 3 opsi solusi yang dapat dilakukan, yaitu memberikan opsi gratis cuci dan setrika sebanyak 10 kg sesuai kebijakan, meminta iuran kepada karyawan jika pelanggan tidak mau menerima opsi gratis, atau menanggung konsekuensi bersama untuk menghindari tuduhan antara karyawan."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "komplain_pelanggan",
+            "patterns": [
+                "Apa yang perlu dilakukan ketika pelanggan komplain?",
+                "Bagaimana cara menangani komplain dari pelanggan?"
+            ],
+            "responses": [
+                "Jangan takut dengan komplain pelanggan, karena komplain merupakan hal yang lumrah terutama dalam setiap usaha. Yang perlu dilakukan adalah berusaha sebaik mungkin untuk meminimalisir komplain, bahkan sampai tidak ada komplain lagi."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "gaji_pegawai",
+            "patterns": [
+                "Berapa gaji pegawai laundry?",
+                "Berapa besaran gaji yang biasanya diberikan kepada pegawai laundry?"
+            ],
+            "responses": [
+                "Umumnya gaji pegawai laundry di semua wilayah setara dengan gaji helper. Lebih baik mendapatkan pegawai perempuan karena cekatan, disiplin, dan teliti."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "manajemen_gaji",
+            "patterns": [
+                "Bagaimana cara memanajemen gaji pegawai?",
+                "Bagaimana strategi manajemen gaji untuk pegawai laundry?"
+            ],
+            "responses": [
+                "Strategi manajemen gaji pegawai laundry dapat dilakukan dengan menaikkan gaji setiap 6 bulan, memberikan bonus lembur, fee untuk karyawan yang mencuci karpet, tunjangan hari raya, serta fee reward untuk pegawai dengan kinerja yang baik."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "rekrut_pegawai",
+            "patterns": [
+                "Bagaimana cara mendapatkan pegawai?",
+                "Apa strategi untuk merekrut pegawai laundry?"
+            ],
+            "responses": [
+                "Pegawai laundry dapat direkrut melalui referensi dari orang terdekat, saudara, dan teman. Selain itu, juga dapat dilakukan dengan membuat brosur atau menggunakan iklan di media sosial."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "terima kasih",
+            "patterns": [
+                "terima kasih",
+                "makasih ya",
+                "makasih",
+                "makasih jawabanya",
+                "mantap",
+                "tepat",
+                "siap",
+                "matur nuwun",
+                "terima kasih banyak",
+                "Terima kasih",
+                "Thanks",
+                "Thank you",
+                "Itu membantu",
+                "Luar biasa, terima kasih",
+                "Terima kasih telah membantu saya",
+                "Ok, terima kasih",
+                "makasih",
+                "terimakasih",
+                "thq",
+                "ty"
+            ],
+            "responses": [
+                "sama-sama",
+                "sama-sama, jika ada yang ingin ditanyakan lagi?",
+                "sama-sama, saya disini membantu anda",
+                "saya selalu disini membantu anda",
+                "baik, ada yang ingin ditanyakan lagi?"
+            ]
+        },
+        {
+            "tag": "kamu",
+            "patterns": [
+                "siapa kamu",
+                "kamu siapa?",
+                "nama mu siapa",
+                "siapa namamu",
+                "apa namamu",
+                "nama kamu",
+                "nama kamu siapa?",
+                "who"
+            ],
+            "responses": [
+                "saya adalah LaundryBot, program chatbot yang dirancang khusus untuk menjadi asisten anda",
+                "saya LaundryBot program chatbot pendamping anda",
+                "panggil saja LaundryBot"
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
